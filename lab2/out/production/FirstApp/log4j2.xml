@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <Console name="Main" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss} %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+
+        <Logger name="com.servlets.UploadServlet" level="debug" additivity="false">
+            <AppenderRef ref="Console" level="debug"/>
+        </Logger>
+        <Logger name="com.servlets.DownloadServlet" level="debug" additivity="false">
+            <AppenderRef ref="Console" level="debug"/>
+        </Logger>
+        <Root level="debug" additivity="false">
+            <AppenderRef ref="Console" />
+        </Root>
+
+    </Loggers>
+
+</Configuration>
