@@ -1,4 +1,4 @@
-package main.java.by.bsu.tasks.triangle;
+package by.bsu.tasks.triangle;
 
 public class TriangleCheck {
     public static boolean isTriangle(double s1, double s2, double s3) {

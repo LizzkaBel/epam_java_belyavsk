@@ -1,6 +1,6 @@
-package test.java.bsu.tasks.triangle;
+package bsu.tasks.triangle;
 
-import main.java.by.bsu.tasks.triangle.TriangleCheck;
+import by.bsu.tasks.triangle.TriangleCheck;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
